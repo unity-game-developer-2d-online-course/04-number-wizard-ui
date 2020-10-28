@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 324528535}
   - component: {fileID: 324528534}
   m_Layer: 5
-  m_Name: WizardRick
+  m_Name: BennyPotter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 596, y: 800}
+  m_SizeDelta: {x: 600, y: 833}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &324528534
 MonoBehaviour:
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7533b17be931ce346b6ef06a8718bbdf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1dd5b08d8af1a99478664e9dbc5063a0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 1349677648}
   - component: {fileID: 1349677647}
   m_Layer: 5
-  m_Name: StartText
+  m_Name: PlayAgainText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -482,7 +482,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1349677647
 MonoBehaviour:
@@ -504,7 +504,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start
+  m_text: Play Again
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 050012480fb399e448a06e78400abe07, type: 2}
   m_sharedMaterial: {fileID: 789588860334474590, guid: 050012480fb399e448a06e78400abe07, type: 2}
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 10
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -594,7 +594,7 @@ GameObject:
   - component: {fileID: 1445753005}
   - component: {fileID: 1445753004}
   m_Layer: 5
-  m_Name: StartButton
+  m_Name: PlayAgainButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -618,7 +618,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -380, y: -280}
-  m_SizeDelta: {x: 480, y: 140}
+  m_SizeDelta: {x: 480, y: 260}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445753004
 MonoBehaviour:
