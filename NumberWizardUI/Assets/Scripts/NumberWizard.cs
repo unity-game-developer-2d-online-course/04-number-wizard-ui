@@ -19,26 +19,24 @@ namespace NumberWizard
 
         private void StartGame()
         {
-            _guess = (_max + _min) / 2;
-            _guessText.text = _guess.ToString();
-            _max++;
+            NextGuess();
         }
 
         private void NextGuess()
         {
-            _guess = (_max + _min) / 2;
+            _guess = Random.Range(_min, _max + 1);
             _guessText.text = _guess.ToString();
         }
 
         public void OnPressHigher()
         {
-            _min = _guess;
+            _min = _guess + 1;
             NextGuess();
         }
 
         public void OnPressLower()
         {
-            _max = _guess;
+            _max = _guess - 1;
             NextGuess();
         }
     }
