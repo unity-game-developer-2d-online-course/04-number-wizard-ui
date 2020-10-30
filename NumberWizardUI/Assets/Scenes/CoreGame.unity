@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.36078432, b: 0.5803922, a: 1}
+  m_Color: {r: 0.1882353, g: 0.31335506, b: 0.45490196, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -311,7 +311,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -440, y: -280}
-  m_SizeDelta: {x: 480, y: 140}
+  m_SizeDelta: {x: 520, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301585268
 MonoBehaviour:
@@ -442,7 +442,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.09411765, g: 0.1882353, b: 0.3137255, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1297,7 +1297,7 @@ GameObject:
   - component: {fileID: 1349677648}
   - component: {fileID: 1349677647}
   m_Layer: 5
-  m_Name: SuccessText
+  m_Name: CorrectText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1342,7 +1342,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Success
+  m_text: Correct
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 050012480fb399e448a06e78400abe07, type: 2}
   m_sharedMaterial: {fileID: 789588860334474590, guid: 050012480fb399e448a06e78400abe07, type: 2}
@@ -1432,7 +1432,7 @@ GameObject:
   - component: {fileID: 1445753005}
   - component: {fileID: 1445753004}
   m_Layer: 5
-  m_Name: SuccessButton
+  m_Name: CorrectButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1456,7 +1456,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -440, y: -100}
-  m_SizeDelta: {x: 480, y: 140}
+  m_SizeDelta: {x: 520, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445753004
 MonoBehaviour:
@@ -1588,7 +1588,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -440, y: 80}
-  m_SizeDelta: {x: 480, y: 140}
+  m_SizeDelta: {x: 520, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1574504170
 MonoBehaviour:
@@ -1610,10 +1610,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.972549, g: 0.972549, b: 0.3764706, a: 1}
+    m_NormalColor: {r: 0.9333334, g: 0.9333334, b: 0.36078432, a: 1}
     m_HighlightedColor: {r: 0.972549, g: 0.7529412, b: 0, a: 1}
     m_PressedColor: {r: 0.7529412, g: 0.45490196, b: 0, a: 1}
-    m_SelectedColor: {r: 0.7529412, g: 0.45490196, b: 0, a: 1}
+    m_SelectedColor: {r: 0.75294125, g: 0.454902, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
