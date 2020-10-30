@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
 namespace NumberWizard
 {
@@ -6,6 +7,8 @@ namespace NumberWizard
     {
         [SerializeField] private int _min;
         [SerializeField] private int _max;
+        [SerializeField] private TextMeshProUGUI _guessText;
+
         private int _guess;
 
         // Start is called before the first frame update
@@ -16,13 +19,15 @@ namespace NumberWizard
 
         private void StartGame()
         {
-            _max++;
             _guess = (_max + _min) / 2;
+            _guessText.text = _guess.ToString();
+            _max++;
         }
 
         private void NextGuess()
         {
             _guess = (_max + _min) / 2;
+            _guessText.text = _guess.ToString();
         }
 
         public void OnPressHigher()
